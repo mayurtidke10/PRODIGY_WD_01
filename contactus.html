@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>wonder Tour</title>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></link>
+				<link rel="stylesheet" href="./css/style.css"></link>
+</head>
+<body>
+				<header>
+      <div class="bar">
+      				
+        <div class="logo">
+        				<button onclick= "threebar()"><i class="fas fa-bars"></i></button>
+          <a href="#">
+            <img src="./img/logo.png" alt="" />
+          </a>
+        </div>
+          <button onclick= "threedot()"><i class="fas fa-ellipsis-v" ></i></button>
+          <div id="timing">
+          <div class="text-1">
+            <i class="far fa-clock"></i>
+            <h4>09:00AM—05:00PM</h4>
+          </div>
+          <div class="text-2">
+            <i class="fas fa-phone-alt"></i>
+            <h4>+1 323-913-4688</h4>
+          </div>
+
+          <a href="#"><button>Get A Free Quote</button></a>
+        </div>
+      </div>
+				<nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="ourtours.html">Our Tour</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contactus.html">Contact us</a></li>
+        </ul>
+        <hr>
+        <div class="scoial-icon">
+          <a href="#"> <i class="fab fa-facebook-f"></i></a>
+          <a href="#"> <i class="fab fa-twitter"></i></a>
+          <a href="#"> <i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </nav>
+      </header>
+      <div class="title">
+        				<h2>Contact Us</h2>
+        				 <h3>Home/Contact Us</h3>
+        </div>
+       <div class="contact-box">
+       				<div>
+       								<i class="fas fa-mobile"></i>
+       								<div class="contact-box-text">
+       								<a href=tel:"91 1234567890">+91 1234567890</a><br>
+       								<a href=tel:"91 1234567890">+91 1234567890</a>
+       								</div>
+       				</div>
+       				<div>
+       								<i class="fas fa-home"></i>
+       								<div class="contact-box-text">
+       					<a href="#">4730 Crystal Springs Dr,                            Los Angeles, CA 90027</a>
+       								</div>
+       				</div>
+       				<div>
+       								<i class="fas fa-comments"></i>
+       								<div class="contact-box-text">
+       	        	<a href="mailto:someone@example.com">info@wondertour.com</a>
+       										<br>						<a href="mailto:someone@example.com">mail@wondertour.com</a>
+       								</div>
+       				</div>
+       </div>
+       <div class="get">
+       				<h2>Get in Touch</h2>
+       				<hr>
+       				<p>If you have any questions, just fill in the contact form, and we will answer you shortly.</p>
+       </div>
+	   <form method="POST">
+      <div class="contact-form" >
+	  
+      				<input type="name" name="user" placeholder="Your Name" required>
+      				<input type="email" name="email" id="" placeholder="Enter Email Address" required>
+      				<input  name="phone" id="" placeholder="Phone" required>
+      				<textarea rows="7" placeholder="Message" name="msg" required></textarea>
+					 <button type="submit" name="click">Submit</button>
+		 
+      </div>
+	  </form>
+    <footer>
+			
+				<div class=" foot-contact">								
+								<h2>CONTACT US</h2>
+								<li>											
+												<i class="fas fa-phone-alt"></i>
+												<a href=tel:" 1234567890 ">+91 1234567890</a>
+												</li>
+												<li>
+												<i class="fas fa-envelope"></i>
+								<a href="mailto:someone@example.com">info@wondertour.com</a>
+								</li>
+							<li>
+								<i class="fas fa-map-marker"></i>
+								<a href="#">4730 Crystal Springs Dr,                            Los Angeles, CA 90027</a>
+								</li>
+				</div>
+				
+				<div class="foot-news">
+								<h2>Popular News</h2>
+								<a href="blog.html">Your Personal Guide To 5 Best Places To Vists On  Earth </a>
+								<h4>May 04,2021</h4>
+								<a href="blog.html">Top 10 Hotel Rating By wonder Tour Travel Expert</a>
+								<h4>May 09,2021</h4>
+				</div>
+				
+				<div class="foot-link">
+								<h2>Quick Links</h2>
+								<ul>
+												<li><a href="./about.html">About</a></li>
+												<li><a href="ourtours.html">OurTour</a></li>
+												<li><a href="contactus.html">contact us</a></li>
+												<li><a href="blog.html">Blog</a></li>
+								</ul>
+				</div>			   
+</footer>
+<div class="foot-2">
+			   				<h3>© 2021 Wonder Tour. All rights reserved</h3>
+			   </div>
+<script>
+								function threedot() {
+  var x = document.getElementById("timing");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function threebar() {
+  var y = document.getElementById("nav");
+  if (y.style.display === "none") {
+    y.style.display = "flex";
+  } else {
+    y.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>
